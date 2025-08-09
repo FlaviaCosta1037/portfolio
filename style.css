@@ -110,4 +110,28 @@
     font-weight: 600;
     font-size: 1rem;
   }
+
+/* Seção sobre */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Imagem dos projetos */
+  .projeto-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+  }
   
